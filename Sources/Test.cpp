@@ -5,6 +5,7 @@
 #include <iostream>
 #include "Test.hpp"
 
-int main() {
-    std::cout << TEST_VALUE << std::endl;
+int debugPrint() {
+    std::cout << "This is a test print." << std::endl;
+    return 0;
 }
